@@ -1,0 +1,72 @@
+<searchbar isnavigator="{{true}}"></searchbar>
+<view class="module-group">
+  <view class="module-top">
+    <view class="module-title">电影</view>
+    <navigator class="module-more">更多</navigator>
+  </view>
+  <scroll-view class="module-scroll-view" scroll-x="{{true}}">
+    <navigator class="item-navigator">
+      <view class="item-group">
+        <view class="thumbnail-group">
+          <image class="thumbnail" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2615992304.webp"></image>
+          <view class="item-title">大话西游之大圣娶亲</view>
+          <stars></stars>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item-navigator">
+      <view class="item-group">
+        <view class="thumbnail-group">
+          <image class="thumbnail" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.webp"></image>
+          <view class="item-title">大话西游之师徒情缘</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item-navigator">
+      <view class="item-group">
+        <view class="thumbnail-group">
+          <image class="thumbnail" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2361744534.webp"></image>
+          <view class="item-title">大话西游之八戒离婚</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item-navigator">
+      <view class="item-group">
+        <view class="thumbnail-group">
+          <image class="thumbnail" src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2316177058.webp"></image>
+          <view class="item-title">大话西游之悟净还俗</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item-navigator">
+      <view class="item-group">
+        <view class="thumbnail-group">
+          <image class="thumbnail" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2615992304.webp"></image>
+          <view class="item-title">大话西游之情定女儿国</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item-navigator">
+      <view class="item-group">
+        <view class="thumbnail-group">
+          <image class="thumbnail" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2615992304.webp"></image>
+          <view class="item-title">大话西游之师徒情缘</view>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator class="item-navigator">
+      <view class="item-group">
+        <view class="thumbnail-group">
+          <image class="thumbnail" src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2615992304.webp"></image>
+          <view class="item-title">大话西游之师徒情缘</view>
+        </view>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>

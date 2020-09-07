@@ -1,0 +1,45 @@
+/* pages/flex/flex.wxss */
+.outter{
+  /* display: flex;
+  justify-content: space-between; */
+  width: 300rpx;
+  height: 300rpx;
+  background: darksalmon;
+
+  /*
+  *  需求2 ：使inner1和inner2 平均放置，使左右两边的和之间的距离都是一样的
+  *  方法：将 outter 使用 flex 布局方式
+  */
+  display: flex;
+  justify-content: space-evenly; /* 使里面的内容在水平方向上平均分布排列  */ 
+
+  /* justify-content: space-between; /* 使用该属性也可以实现需求1 */
+}
+
+.outter .inner{
+  width: 100rpx;
+  height: 100rpx;
+  background: darkseagreen;
+  border:1px solid #e4e;
+    /*
+    * 使border边框线包含在inner中 添加 box-sizing: border-box;
+    * 如果不添加 box-sizing ，那么inner中的height*(100*n) + border  (1*2*n) 会大于
+    * 300rpx,会露出来.(n为inner的个数)
+    */
+  box-sizing: border-box;
+}
+
+/* 
+ * 需求1：使inner1靠最左边放，inner2靠最右边放
+ * 使用以下样式
+ */
+.inner1{
+  float: left;
+}
+
+.inner2{
+  float: right;
+}
+
+
+

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view>{{username}}</view>
+<view>{{person.username}}</view>
+<view>{{person.age}}</view>
+
+
+<view wx:for="{{books}}">{{item}}</view>
+
+<button bind:tap="goToNextPage">按钮</button>

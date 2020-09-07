@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/flex/flex",
+    "pages/taide/taide",
+    "pages/tpl/QQ/QQ",
+    "pages/tpl/wechat/wechat",
+    "pages/webo/webo",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "小小鸭",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tpl/QQ/QQ",
+        "text": "QQ",
+        "iconPath": "image/qq.png",
+        "selectedIconPath": "image/qq_select.png"
+      },
+      {
+        "pagePath": "pages/tpl/wechat/wechat",
+        "text": "微信",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechat_select.png"
+      }
+    ]
+  }
+}

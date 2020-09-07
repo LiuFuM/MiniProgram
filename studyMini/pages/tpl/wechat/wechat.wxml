@@ -1,0 +1,3 @@
+<!--pages/tpl/wechat/wechat.wxml-->
+<import src="../../../templates/message/message.wxml" />
+<template is="message" data="{{content:'小微，你好',friend:'机器人'}}"></template>  

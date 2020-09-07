@@ -1,0 +1,8 @@
+<!--pages/tpl/QQ/QQ.wxml-->
+<import src="../../../templates/message/message.wxml" />
+
+<!--
+<template is="message" wx:for="{{messages}}" data="{{content:item.content, friend:item.friend}}"> </template>
+-->
+<template is="message" wx:for="{{messages}}" data="{{...item}}"> </template>
+

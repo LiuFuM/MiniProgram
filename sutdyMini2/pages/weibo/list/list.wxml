@@ -1,0 +1,4 @@
+<!--pages/weibo/list/list.wxml-->
+<text>第一条微博</text>
+<view wx:for="{{weibos}}">{{item}}</view>
+<button type="primary" bind:tap="writWeibo">发微博</button> 

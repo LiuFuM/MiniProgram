@@ -1,0 +1,3 @@
+<!--pages/taide/taide.wxml-->
+<view bind:tap="onClickView">确定</view>
+<view class="articals-group" wx:for="{{articals}}" bind:tap="onClickArtical" data-id="{{item.id}}" data-title="{{item.title}}">{{item.title}}</view>

@@ -1,0 +1,21 @@
+/**index.wxss**/
+.outter{
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.hover-outter{
+  background: blue;
+}
+
+.inner{
+  width: 200rpx;
+  height: 200rpx;
+  background: chartreuse;
+}
+
+.hover-inner{
+  background: burlywood;
+  
+}
